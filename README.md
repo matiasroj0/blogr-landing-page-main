@@ -4,7 +4,7 @@ This is a solution to the [Blogr landing page challenge on Frontend Mentor](http
 
 ### Links
 
-- Live Site URL: 
+- Live Site URL: https://luxury-bubblegum-76b203.netlify.app/
 
 ### Screenshot
 
