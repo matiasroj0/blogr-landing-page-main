@@ -53,10 +53,10 @@ body {
 }
 
 header {
-    background-color: #fe866e;
-    background-image: url(/images/bg-pattern-intro-desktop.svg);
-    background-repeat: no-repeat;
-    background-position: center left  -340px;
+    background-image: url('./images/bg-pattern-intro-desktop.svg'), linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%) 70%);
+    background-size: 200%;
+    background-position: 20% 53%;
+
     font-family: 'Ubuntu', sans-serif;
     border-bottom-left-radius: 5rem;
 }
@@ -517,11 +517,9 @@ br {
     }
 
     header {
-        background-color: #fe866e;
-        background-image: url(/images/bg-pattern-intro-mobile.svg);
-        background-repeat: no-repeat;
-        background-position: center left -340px;
-        background-size: 350%;
+        background-image: url('./images/bg-pattern-intro-desktop.svg'), linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%) 70%);
+        background-size: 420%;
+        background-position: 40% 40%;
         font-family: 'Ubuntu', sans-serif;
         border-bottom-left-radius: 5rem;
     }
